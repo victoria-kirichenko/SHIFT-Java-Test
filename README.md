@@ -22,7 +22,7 @@ dependencies {
 
 * Настроить конфигурацию, указав параметры запуска:
 
-![configuration](materials/configurations.PNG)
+![configuration](MergeSort-CFT-Test/materials/configurations.PNG)
 
 Рисунок 1 - Настройки конфигурации
 
