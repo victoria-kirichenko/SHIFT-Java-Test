@@ -9,7 +9,6 @@ public class Main {
             Validator.printInfo(validator);
         } catch (Exception e) {
             System.err.println(e.getMessage());
-//            System.exit(-1);
         }
     }
 }
