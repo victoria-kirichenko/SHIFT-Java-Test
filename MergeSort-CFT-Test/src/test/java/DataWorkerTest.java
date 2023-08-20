@@ -13,7 +13,8 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 public class DataWorkerTest {
-    public static final String path = String.join(File.separator, "src", "test", "resources", "fileMergingResources") + File.separator;
+    public static final String path = String.join(File.separator, "src", "test", "resources",
+            "fileMergingResources") + File.separator;
 
     @BeforeAll
     public static void deleteAllOutputFiles() throws IOException {
@@ -43,8 +44,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 
@@ -62,8 +65,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 
@@ -81,8 +86,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 
@@ -100,8 +107,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 
@@ -120,8 +129,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 
@@ -140,8 +151,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 
@@ -160,8 +173,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 
@@ -180,8 +195,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 
@@ -200,8 +217,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 
@@ -220,8 +239,10 @@ public class DataWorkerTest {
                         tPath + "3.txt"});
         DataWorker merger = new DataWorker(parsed);
         merger.mergeSortFiles();
-        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8).replaceAll("\r", "");
-        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8).replaceAll("\r", "");
+        String strFromOutputFile = Files.readString(Paths.get(outputFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
+        String strFromCheckFile = Files.readString(Paths.get(checkFile), StandardCharsets.UTF_8)
+                .replaceAll("\r", "");
         Assertions.assertEquals(strFromCheckFile, strFromOutputFile);
     }
 }

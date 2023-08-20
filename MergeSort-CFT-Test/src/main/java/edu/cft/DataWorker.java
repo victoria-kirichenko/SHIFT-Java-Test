@@ -16,7 +16,7 @@ public class DataWorker {
 
         boolean[] stopReading = new boolean[readers.length];
         String[] inputLines = new String[readers.length];
-        String[] previousLines = new String[readers.length];  // Для проверки правильности сортировки в файлах
+        String[] previousLines = new String[readers.length];
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(validator.getOutputFile(), false))) {
             while (true) {

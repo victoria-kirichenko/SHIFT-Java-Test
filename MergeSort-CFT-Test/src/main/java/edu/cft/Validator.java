@@ -26,7 +26,9 @@ public class Validator {
 
     public static Validator getInstance(String[] args) throws IOException {
         int minArguments = 3;
-        if (args.length < minArguments) throw new IllegalArgumentException("Invalid count arguments. Usage: [-a|-d] (need not use) [-i|-s] output_file input_file1 input_file2 ...");
+        if (args.length < minArguments)
+            throw new IllegalArgumentException("Invalid count arguments. " +
+                    "Usage: [-a|-d] (need not use) [-i|-s] output_file input_file1 input_file2 ...");
         int currI = 0;
         Validator settings = new Validator();
 
@@ -36,7 +38,8 @@ public class Validator {
         }
 
         if (!args[currI].equals("-s") && !args[currI].equals("-i")) {
-            throw new IllegalArgumentException("Invalid arguments. Usage: [-a|-d] (need not use) [-i|-s] output_file input_file1 input_file2 ...");
+            throw new IllegalArgumentException("Invalid arguments. " +
+                    "Usage: [-a|-d] (need not use) [-i|-s] output_file input_file1 input_file2 ...");
         } else if (args[currI].equals("-s")) {
             settings.setType(DataType.STRING);
         }
