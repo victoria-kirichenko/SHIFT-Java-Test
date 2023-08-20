@@ -22,7 +22,7 @@ dependencies {
 
 * Настроить конфигурацию, указав параметры запуска:
 
-![configuration](materials/configurations.PNG)
+![configurations](materials/configurations.png)
 
 Рисунок 1 - Настройки конфигурации
 
