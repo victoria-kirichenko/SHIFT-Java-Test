@@ -28,6 +28,11 @@ dependencies {
 
 * Запустить программу
 
+### Запуск (2 способ, JAR):
+
+* Запускаешь команду ```gradle build```
+* Затем запускаешь jar-файл в консоли с помощью команды ```java -cp .\build\libs\MergeSort-CFT-Test-1.0-SNAPSHOT.jar edu.cft.Main -a -i out.txt in1.txt in2.txt```
+
 ### Программа содержит:
 
 * unit-тесты, запустить можно с помощью команды ```gradle test```
